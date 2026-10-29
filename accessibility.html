@@ -1,0 +1,129 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Accesibilidad · SimuPesos</title>
+<meta name="description" content="Funciones de accesibilidad de SimuPesos, simulador de educación financiera con dinero ficticio.">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<main>
+  <header class="brand">
+    <div class="logo" aria-hidden="true">$</div>
+    <div>
+      <h1>Accesibilidad</h1>
+      <span class="badge">SimuPesos · Dinero 100% ficticio</span>
+    </div>
+  </header>
+  <p class="muted">Última actualización: 29 de octubre de 2026 · Versión 1.2</p>
+  <nav class="lang"><a href="#english">English version below ↓</a></nav>
+
+  <div class="notice">
+    <strong>SimuPesos está pensado para quien empieza:</strong> personas que usan por primera vez
+    una app de banco o un cajero, y adultos mayores. Queremos que cualquiera pueda practicar,
+    vea bien o no, use las manos o la voz.
+  </div>
+
+  <h2>Lo que la app ya soporta</h2>
+  <p>Estas funciones sirven para las tareas principales de la app (crear tu cuenta, ver tu saldo,
+  transferir y usar el cajero simulado) en iPhone y iPad.</p>
+  <div class="card">
+    <h3>VoiceOver</h3>
+    <p>Botones, montos y pasos tienen nombre. Los números de tarjeta se leen como
+    "terminación 4521" en lugar de puntos, y la app anuncia cada paso de los recorridos guiados.</p>
+    <h3>Control por voz</h3>
+    <p>Puedes tocar los botones diciendo su nombre, por ejemplo "Tocar Transferir".</p>
+    <h3>Modo oscuro</h3>
+    <p>Todas las pantallas tienen versión oscura. La tarjeta y el recibo conservan su aspecto
+    porque representan objetos reales.</p>
+    <h3>No depende solo del color</h3>
+    <p>El dinero que entra y el que sale se distinguen con signo (+ / −), flecha y texto, no
+    solo con azul o rojo.</p>
+    <h3>Reducir movimiento</h3>
+    <p>Si lo activas, las animaciones se quitan; los cambios siguen pasando, sin deslizarse
+    ni rebotar.</p>
+  </div>
+
+  <h2>Ayudas propias de SimuPesos</h2>
+  <ul class="check">
+    <li><strong>Modo primera vez:</strong> en el cajero, <em>Leer en voz alta</em> lee cada paso con
+    voz en español de México y el recorrido va más despacio. (Si usas VoiceOver, este botón no
+    aparece para que no se encimen las voces.)</li>
+    <li><strong>Cajero seguro:</strong> práctica de cuidados reales en el cajero, como cubrir tu NIP
+    y revisar si hay algo extraño en la ranura.</li>
+    <li><strong>Botones grandes</strong>, de al menos 44 puntos, fáciles de tocar.</li>
+    <li>Con <em>Reducir transparencia</em>, los avisos flotantes usan un fondo sólido.</li>
+  </ul>
+
+  <h2>En lo que estamos trabajando</h2>
+  <ul>
+    <li><strong>Texto más grande en el cajero:</strong> la banca digital ya respeta el tamaño de
+    texto de tu iPhone, pero algunos textos de la pantalla del cajero todavía no crecen.</li>
+    <li><strong>Contraste en modo oscuro:</strong> estamos mejorando algunos botones para que se
+    lean mejor.</li>
+  </ul>
+
+  <h2>Cómo activar estas funciones</h2>
+  <p>En tu iPhone o iPad, ve a <em>Ajustes › Accesibilidad</em> y elige <em>VoiceOver</em>,
+  <em>Control por voz</em>, <em>Pantalla y tamaño de texto</em> o <em>Movimiento</em>. El modo
+  oscuro está en <em>Ajustes › Pantalla y brillo</em>. SimuPesos sigue lo que elijas ahí.</p>
+
+  <h2>¿Algo no te funciona?</h2>
+  <p>Si alguna pantalla no se puede usar con tu forma de usar el teléfono, cuéntanos qué pasó y
+  qué función tienes activada. Escribe a
+  <a href="mailto:gustavosalazar13@gmail.com?subject=Accesibilidad%20SimuPesos">gustavosalazar13@gmail.com</a>.</p>
+
+  <hr>
+
+  <section id="english" lang="en">
+    <h1>Accessibility</h1>
+    <p class="muted">Last updated: October 29, 2026 · Version 1.2</p>
+
+    <div class="notice">
+      <strong>SimuPesos is built for beginners:</strong> people using a banking app or an ATM for
+      the first time, and older adults. Anyone should be able to practice, however they see,
+      touch or speak.
+    </div>
+
+    <h2>What the app supports</h2>
+    <p>These features work for the app's main tasks (creating an account, checking your balance,
+    making a transfer and using the simulated ATM) on iPhone and iPad.</p>
+    <ul class="check">
+      <li><strong>VoiceOver:</strong> buttons, amounts and steps are labeled; card numbers are read
+      as "ending in 4521", and guided tours announce every step.</li>
+      <li><strong>Voice Control:</strong> tap buttons by saying their name.</li>
+      <li><strong>Dark Mode:</strong> every screen has a dark version.</li>
+      <li><strong>Not color alone:</strong> money in and money out are shown with a sign, an arrow
+      and a word, not just blue or red.</li>
+      <li><strong>Reduce Motion:</strong> animations are removed when it is on.</li>
+    </ul>
+
+    <h2>SimuPesos' own helpers</h2>
+    <ul class="check">
+      <li><strong>First-time mode:</strong> at the ATM, <em>Read aloud</em> speaks every step and
+      the tour goes slower (hidden while VoiceOver is on).</li>
+      <li><strong>Safe ATM:</strong> practice real ATM safety habits, like covering your PIN.</li>
+      <li><strong>Large buttons</strong>, at least 44 points.</li>
+      <li>With <em>Reduce Transparency</em>, floating messages use a solid background.</li>
+    </ul>
+
+    <h2>What we're working on</h2>
+    <ul>
+      <li><strong>Larger Text at the ATM:</strong> banking screens follow your text size; some ATM
+      screen text does not grow yet.</li>
+      <li><strong>Dark Mode contrast:</strong> improving a few buttons so they're easier to read.</li>
+    </ul>
+
+    <h2>Something not working?</h2>
+    <p>Tell us which screen and which feature you use:
+    <a href="mailto:gustavosalazar13@gmail.com?subject=SimuPesos%20Accessibility">gustavosalazar13@gmail.com</a>.</p>
+  </section>
+
+  <footer>
+    <a href="index.html">Soporte / Support</a> ·
+    <a href="privacy.html">Privacidad / Privacy</a> · SimuPesos © 2026
+  </footer>
+</main>
+</body>
+</html>
